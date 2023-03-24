@@ -1,0 +1,265 @@
+.vectorIcon {
+    position   : relative;
+    width      : 12.13px;
+    height     : 12.68px;
+    flex-shrink: 0;
+}
+
+.notes,
+.notes1 {
+    display        : flex;
+    flex-direction : row;
+    align-items    : flex-start;
+    justify-content: flex-start;
+}
+
+.notes1 {
+    overflow: hidden;
+    padding : var(--padding-11xs);
+}
+
+.notes {
+    background-color: var(--color-mediumslateblue);
+    border-bottom   : 1px solid var(--secondary3);
+    padding         : var(--padding-3xs);
+    gap             : var(--gap-11xs);
+    color           : var(--secondary3);
+}
+
+.notes1Child {
+    width      : 9.14px;
+    height     : 12px;
+    flex-shrink: 0;
+}
+
+.activity,
+.notes1Child {
+    position: relative;
+}
+
+.activityTab {
+    background-color: var(--white);
+    border-bottom   : 0.5px solid var(--color-gainsboro-200);
+    display         : flex;
+    flex-direction  : row;
+    padding         : var(--padding-3xs);
+    align-items     : flex-start;
+    justify-content : flex-start;
+    gap             : var(--gap-10xs);
+}
+
+.iconlylightcall {
+    position   : relative;
+    width      : 10px;
+    height     : 10px;
+    flex-shrink: 0;
+}
+
+.call,
+.notes12 {
+    display        : flex;
+    flex-direction : row;
+    align-items    : flex-start;
+    justify-content: flex-start;
+}
+
+.notes12 {
+    width      : 16px;
+    height     : 16px;
+    flex-shrink: 0;
+    overflow   : hidden;
+    padding    : var(--padding-11xs);
+    box-sizing : border-box;
+}
+
+.call {
+    background-color: var(--white);
+    border-bottom   : 0.5px solid var(--color-gainsboro-200);
+    padding         : var(--padding-3xs);
+    gap             : var(--gap-11xs);
+}
+
+.mailIcon {
+    position   : relative;
+    width      : 13px;
+    height     : 12px;
+    flex-shrink: 0;
+}
+
+.notes13 {
+    overflow       : hidden;
+    display        : flex;
+    flex-direction : row;
+    padding        : var(--padding-11xs);
+    align-items    : center;
+    justify-content: center;
+}
+
+.email {
+    position   : relative;
+    font-weight: 500;
+}
+
+.tabs {
+    flex           : 1;
+    display        : flex;
+    flex-direction : row;
+    align-items    : flex-start;
+    justify-content: flex-start;
+}
+
+.iconlyboldarrowDown3 {
+    position   : relative;
+    width      : 24px;
+    height     : 24px;
+    flex-shrink: 0;
+}
+
+.tabsParent,
+.vendorReport {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+.vendorReport {
+    border-radius   : var(--br-11xs);
+    background-color: var(--white);
+    border          : 0.5px solid var(--color-gainsboro-200);
+    box-sizing      : border-box;
+    height          : 36px;
+    padding         : 0 0 0 var(--padding-3xs);
+    justify-content : flex-end;
+    gap             : var(--gap-8xs);
+    font-size       : var(--m-size);
+}
+
+.tabsParent {
+    align-self     : stretch;
+    justify-content: center;
+    gap            : var(--gap-301xl);
+}
+
+.timeIcon {
+    position   : relative;
+    width      : 16px;
+    height     : 16px;
+    flex-shrink: 0;
+}
+
+.timeWrapper {
+    height         : 34px;
+    display        : flex;
+    flex-direction : row;
+    padding        : var(--padding-3xs);
+    box-sizing     : border-box;
+    align-items    : center;
+    justify-content: center;
+}
+
+.inputFeild {
+    border-radius  : var(--br-8xs);
+    border         : 0.5px solid var(--color-gainsboro-200);
+    width          : 114px;
+    flex-shrink    : 0;
+    padding        : var(--padding-5xs) var(--padding-3xs);
+    justify-content: center;
+}
+
+.date,
+.inputFeild,
+.inputFeild1,
+.wrapper {
+    height        : 34px;
+    display       : flex;
+    flex-direction: column;
+    box-sizing    : border-box;
+    align-items   : flex-start;
+}
+
+.inputFeild1 {
+    border-radius  : var(--br-8xs);
+    border         : 0.5px solid var(--color-gainsboro-200);
+    padding        : var(--padding-5xs) var(--padding-3xs);
+    justify-content: center;
+}
+
+.date,
+.wrapper {
+    padding        : var(--padding-3xs);
+    justify-content: flex-start;
+    color          : var(--color-black);
+}
+
+.date {
+    border-radius  : var(--br-8xs);
+    border         : 0.5px solid var(--color-gainsboro-200);
+    flex-direction : row;
+    padding        : var(--padding-5xs) var(--padding-3xs);
+    align-items    : center;
+    justify-content: center;
+    color          : var(--color-gray-200);
+}
+
+.external {
+    position      : relative;
+    text-transform: capitalize;
+    font-weight   : 500;
+}
+
+.externalWrapper {
+    border-radius   : var(--br-8xs);
+    background-color: var(--color-deepskyblue-200);
+    display         : flex;
+    flex-direction  : row;
+    padding         : var(--padding-12xs) var(--padding-3xs);
+    align-items     : flex-start;
+    justify-content : flex-start;
+    font-size       : var(--p10m-size);
+    color           : var(--white);
+}
+
+.frameGroup,
+.frameParent,
+.insertTemplate {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+
+}
+
+.insertTemplate {
+    /* border-radius   : var(--br-8xs);
+    background-color: var(--color-gray-400); */
+    background-color: #FFFFFF;
+    border-radius   : 5px;
+    border          : 0.5px solid var(--color-gainsboro-200);
+    box-sizing      : border-box;
+    height          : 34px;
+    padding         : var(--padding-5xs) var(--padding-3xs);
+    justify-content : center;
+    color           : var(--color-gray-200);
+}
+
+.frameGroup,
+.frameParent {
+    align-self     : stretch;
+    justify-content: flex-start;
+    gap            : var(--gap-3xs);
+    font-size      : var(--m-size);
+    color          : var(--color-gray-100);
+}
+
+.frameParent {
+    border-radius   : var(--br-8xs);
+    background-color: var(--white);
+    box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+    flex-direction  : column;
+    padding         : var(--padding-mini);
+    align-items     : flex-start;
+    gap             : var(--gap-113xl);
+    text-align      : left;
+    font-size       : var(--p10m-size);
+    color           : var(--paragraphcolor);
+    font-family     : var(--m);
+}

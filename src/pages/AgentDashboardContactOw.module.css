@@ -1,0 +1,1991 @@
+.modal-backdrop.show {
+  opacity: 0 !important;
+}
+
+.logoIcon {
+  position   : relative;
+  width      : 154px;
+  height     : 65px;
+  flex-shrink: 0;
+  object-fit : cover;
+}
+
+.frameChild,
+.headerInner {
+  display       : flex;
+  flex-direction: row;
+}
+
+.frameChild {
+  border          : 0;
+  font-family     : var(--m);
+  font-size       : var(--p14m-size);
+  background-color: transparent;
+  align-items     : center;
+  justify-content : center;
+}
+
+.headerInner {
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.iconlylightOutlinenotificat {
+  position   : relative;
+  width      : 26px;
+  height     : 26px;
+  flex-shrink: 0;
+}
+
+.div {
+  position: relative;
+}
+
+.iconlylightOutlinenotificatParent {
+  border-radius   : var(--br-7xs);
+  background-color: var(--shade3);
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-8xs);
+  align-items     : center;
+  justify-content : flex-start;
+  gap             : var(--gap-3xs);
+}
+
+.kg {
+  position      : relative;
+  text-transform: capitalize;
+  font-weight   : 500;
+}
+
+.kgWrapper {
+  border-radius   : var(--br-7xs);
+  background-color: var(--paragraphcolor);
+  display         : flex;
+  flex-direction  : column;
+  padding         : var(--padding-3xs);
+  align-items     : flex-start;
+  justify-content : flex-start;
+  font-size       : var(--font-size-base);
+  color           : var(--white);
+}
+
+.header,
+.headerNotification {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.headerNotification {
+  width          : 138.5px;
+  height         : 85px;
+  flex-shrink    : 0;
+  justify-content: flex-end;
+  gap            : var(--gap-mini);
+}
+
+.header {
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  background-color: var(--white);
+  width           : 1920px;
+  padding         : 0 20px;
+  box-sizing      : border-box;
+  justify-content : space-between;
+}
+
+.home2Icon {
+  position   : relative;
+  width      : 15px;
+  height     : 16px;
+  flex-shrink: 0;
+}
+
+.knowlesAvenueL {
+  color: var(--border-color);
+}
+
+.justListed43KnowlesAvenuWrapper,
+.newsnews,
+.newsnews1 {
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+}
+
+.justListed43KnowlesAvenuWrapper {
+  flex       : 1;
+  align-items: flex-start;
+}
+
+.newsnews,
+.newsnews1 {
+  border-radius   : var(--br-9xs);
+  background-color: var(--white);
+  width           : 334px;
+  height          : 30px;
+  flex-shrink     : 0;
+  box-sizing      : border-box;
+  align-items     : center;
+  gap             : var(--gap-3xs);
+}
+
+.newsnews {
+  padding: var(--padding-3xs);
+  color  : #10d35e;
+}
+
+.newsnews1 {
+  padding: var(--padding-3xs) 9px;
+}
+
+.home2Icon2 {
+  position   : relative;
+  width      : 20px;
+  height     : 16px;
+  flex-shrink: 0;
+}
+
+.warnersAvanueL {
+  color: var(--color-gray-300);
+}
+
+.newsnews2,
+.newsnews3 {
+  border-radius   : var(--br-9xs);
+  background-color: var(--white);
+  height          : 30px;
+  flex-shrink     : 0;
+  padding         : var(--padding-3xs);
+}
+
+.newsnews2 {
+  width          : 429px;
+  display        : flex;
+  flex-direction : row;
+  box-sizing     : border-box;
+  align-items    : center;
+  justify-content: center;
+  gap            : var(--gap-3xs);
+  color          : var(--color-deepskyblue-100);
+}
+
+.newsnews3 {
+  width: 340px;
+}
+
+.news,
+.newsnews3,
+.newsnews4 {
+  display        : flex;
+  flex-direction : row;
+  box-sizing     : border-box;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+}
+
+.newsnews4 {
+  border-radius   : var(--br-9xs);
+  background-color: var(--white);
+  width           : 420px;
+  height          : 30px;
+  flex-shrink     : 0;
+  padding         : var(--padding-3xs) 7px;
+  color           : var(--color-deepskyblue-100);
+}
+
+.news {
+  position        : absolute;
+  top             : 85px;
+  left            : -181px;
+  background-color: var(--login-bg);
+  width           : 1920px;
+  padding         : var(--padding-3xs);
+  font-size       : var(--m-size);
+  color           : var(--color-tomato);
+}
+
+.iconlylightarrowRight2 {
+  position   : relative;
+  width      : 11.95px;
+  height     : 11.95px;
+  flex-shrink: 0;
+}
+
+.iconlylightarrowRight2Wrapper {
+  position        : absolute;
+  height          : 53.27%;
+  width           : 53.27%;
+  top             : 21.36%;
+  right           : 22.83%;
+  bottom          : 25.37%;
+  left            : 23.9%;
+  border-radius   : 15px;
+  background-color: var(--primary1);
+  display         : flex;
+  flex-direction  : row;
+  align-items     : center;
+  justify-content : center;
+}
+
+.arrow {
+  position        : relative;
+  width           : 39.42px;
+  height          : 39.42px;
+  flex-shrink     : 0;
+  transform       : rotate(-180deg);
+  transform-origin: 0 0;
+}
+
+.arrowWrapper {
+  width          : 106px;
+  height         : 59.42px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-end;
+  justify-content: space-between;
+}
+
+.frameItem {
+  position   : relative;
+  width      : 46.94px;
+  height     : 46.98px;
+  flex-shrink: 0;
+}
+
+.groupWrapper {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+}
+
+.frameInner,
+.iconlylightOutlinemessage {
+  position   : relative;
+  width      : 23.47px;
+  height     : 23.49px;
+  flex-shrink: 0;
+}
+
+.frameInner {
+  width  : 46.94px;
+  height : 46.98px;
+  display: none;
+}
+
+.iconlylightOutlinemessageParent {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+}
+
+.realEstate1Icon {
+  position   : relative;
+  width      : 24px;
+  height     : 24px;
+  flex-shrink: 0;
+  overflow   : hidden;
+}
+
+.frameGroup,
+.frameParent {
+  display       : flex;
+  flex-direction: column;
+}
+
+.frameGroup {
+  align-self     : stretch;
+  align-items    : center;
+  justify-content: center;
+  gap            : 56px;
+}
+
+.frameParent {
+  height         : 504.35px;
+  flex-shrink    : 0;
+  align-items    : flex-end;
+  justify-content: flex-start;
+}
+
+.frameChild3,
+.groupIcon {
+  position   : relative;
+  width      : 23.74px;
+  height     : 23.74px;
+  flex-shrink: 0;
+}
+
+.frameChild3 {
+  width : 28.05px;
+  height: 28.05px;
+}
+
+.groupParent {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : 42px;
+}
+
+.leftNavigation,
+.leftnav {
+  width          : 106px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.leftnav {
+  height        : 861.13px;
+  flex-shrink   : 0;
+  flex-direction: column;
+  gap           : 263px;
+}
+
+.leftNavigation {
+  position        : absolute;
+  top             : 135px;
+  left            : 0;
+  background-color: var(--white);
+  border-right    : 1px solid var(--color-gainsboro-200);
+  box-sizing      : border-box;
+  flex-direction  : row;
+  padding         : var(--padding-31xl) 0;
+}
+
+.bgChild {
+  position  : absolute;
+  top       : 55px;
+  left      : 20px;
+  width     : 1780px;
+  height    : 1588px;
+  object-fit: cover;
+}
+
+.bg,
+.bgItem {
+  position: absolute;
+  width   : 1813px;
+  height  : 1643px;
+}
+
+.bgItem {
+  top             : 0;
+  left            : 0;
+  background-color: rgba(217, 217, 217, 0.38);
+}
+
+.bg {
+  top : 135px;
+  left: 107px;
+}
+
+.notesTasks {
+  position   : relative;
+  font-weight: 600;
+}
+
+.groupChild,
+.zhekaBoychenkoVpktwytgk8eUnIcon {
+  position  : absolute;
+  height    : 100%;
+  width     : 100%;
+  top       : 0;
+  right     : 0;
+  bottom    : 0;
+  left      : 0;
+  max-width : 100%;
+  overflow  : hidden;
+  max-height: 100%;
+}
+
+.zhekaBoychenkoVpktwytgk8eUnIcon {
+  height       : 168.09%;
+  width        : 125.58%;
+  right        : -25.58%;
+  bottom       : -68.09%;
+  border-radius: 40.51px;
+  object-fit   : cover;
+}
+
+.maskGroup {
+  position: absolute;
+  height  : 65.52%;
+  width   : 64.38%;
+  top     : 17.24%;
+  right   : 17.76%;
+  bottom  : 17.24%;
+  left    : 17.86%;
+}
+
+.groupContainer {
+  position   : relative;
+  width      : 45.37px;
+  height     : 46.99px;
+  flex-shrink: 0;
+}
+
+.profileInner {
+  display        : flex;
+  flex-direction : row;
+  padding        : 4px var(--padding-8xs);
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.keilGlass {
+  flex    : 1;
+  position: relative;
+}
+
+.profile,
+.profileWrapper {
+  display       : flex;
+  flex-direction: row;
+}
+
+.profile {
+  width          : 115.37px;
+  flex-shrink    : 0;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-10xs);
+}
+
+.profileWrapper {
+  align-items    : flex-end;
+  justify-content: flex-end;
+}
+
+.lineDiv {
+  border-right: 1px solid var(--color-black);
+  box-sizing  : border-box;
+  width       : 1px;
+  height      : 21px;
+}
+
+.frameChild4,
+.frameChild5,
+.lineDiv {
+  position   : relative;
+  flex-shrink: 0;
+}
+
+.frameChild4 {
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width     : 33px;
+  height    : 1px;
+}
+
+.frameChild5 {
+  width : 0;
+  height: 20px;
+}
+
+.lineParent {
+  width          : 32px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.iconlylightOutlinelocation {
+  position   : relative;
+  width      : 20px;
+  height     : 20px;
+  flex-shrink: 0;
+}
+
+.owenStreetNorth {
+  position   : relative;
+  font-weight: 300;
+  display    : inline-block;
+  width      : 165px;
+  flex-shrink: 0;
+}
+
+.frameChild6,
+.iconlyboldarrowDown2 {
+  position   : relative;
+  width      : 17px;
+  height     : 17px;
+  flex-shrink: 0;
+}
+
+.frameChild6 {
+  width     : 14px;
+  height    : 14px;
+  object-fit: cover;
+}
+
+.iconlylightOutlinelocationParent {
+  flex-direction: row;
+  align-items   : center;
+  gap           : var(--gap-10xs);
+}
+
+.address,
+.frameParent1,
+.iconlylightOutlinelocationParent {
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.address {
+  width         : 260px;
+  height        : 40px;
+  flex-shrink   : 0;
+  flex-direction: row;
+  padding       : 0 0 0 var(--padding-31xl);
+  box-sizing    : border-box;
+  align-items   : center;
+  gap           : var(--gap-10xs);
+}
+
+.frameParent1 {
+  position      : absolute;
+  top           : 0;
+  left          : 0;
+  flex-direction: column;
+  align-items   : flex-start;
+}
+
+.profileTaskInner {
+  position   : relative;
+  width      : 260px;
+  height     : 94.99px;
+  flex-shrink: 0;
+}
+
+.frameChild7 {
+  flex     : 1;
+  position : relative;
+  max-width: 100%;
+  overflow : hidden;
+  height   : 30px;
+}
+
+.instanceChild {
+  position     : absolute;
+  height       : 100%;
+  width        : 100%;
+  top          : 0;
+  right        : 0;
+  bottom       : 0;
+  left         : 0;
+  border-radius: var(--br-8xs);
+  border       : 1px solid var(--border-color);
+  box-sizing   : border-box;
+  opacity      : 0.1;
+}
+
+.iconlylightcall {
+  position  : absolute;
+  height    : 43.21%;
+  width     : 43.21%;
+  top       : 30%;
+  right     : 26.79%;
+  bottom    : 26.79%;
+  left      : 30%;
+  max-width : 100%;
+  overflow  : hidden;
+  max-height: 100%;
+}
+
+.rectangleParent {
+  position   : relative;
+  width      : 30px;
+  height     : 30px;
+  flex-shrink: 0;
+}
+
+.instanceParent,
+.profileTask {
+  display       : flex;
+  flex-direction: row;
+}
+
+.instanceParent {
+  width          : 75px;
+  flex-shrink    : 0;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-mini);
+}
+
+.profileTask {
+  width          : 744px;
+  align-items    : center;
+  justify-content: space-between;
+  font-size      : var(--m-size);
+  color          : var(--border-color);
+}
+
+.frameContainer {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  font-size      : var(--h1-p-sb-32-size);
+  color          : var(--headingcolor);
+}
+
+.vectorIcon {
+  position   : relative;
+  width      : 12.13px;
+  height     : 12.68px;
+  flex-shrink: 0;
+}
+
+.notes,
+.notes1 {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.notes1 {
+  overflow: hidden;
+  padding : var(--padding-11xs);
+}
+
+.notes {
+  background-color: rgba(0, 101, 252, 0.1);
+  border-bottom   : 1px solid var(--secondary3);
+  padding         : var(--padding-3xs);
+  gap             : var(--gap-11xs);
+  color           : var(--secondary3);
+}
+
+.notes1Child {
+  position   : relative;
+  width      : 9.14px;
+  height     : 12px;
+  flex-shrink: 0;
+}
+
+.activityTab {
+  background-color: var(--white);
+  border-bottom   : 0.5px solid var(--color-gainsboro-200);
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  align-items     : flex-start;
+  justify-content : flex-start;
+  gap             : var(--gap-10xs);
+}
+
+.iconlylightcall1 {
+  position   : relative;
+  width      : 10px;
+  height     : 10px;
+  flex-shrink: 0;
+}
+
+.notes12 {
+  width          : 16px;
+  height         : 16px;
+  flex-shrink    : 0;
+  overflow       : hidden;
+  display        : flex;
+  flex-direction : row;
+  padding        : var(--padding-11xs);
+  box-sizing     : border-box;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.call1 {
+  position   : relative;
+  font-size  : var(--p10m-size);
+  font-weight: 500;
+  font-family: var(--m);
+  color      : var(--paragraphcolor);
+  text-align : left;
+}
+
+.call {
+  cursor          : pointer;
+  border          : 0;
+  padding         : var(--padding-3xs);
+  background-color: var(--white);
+  border-bottom   : 0.5px solid var(--color-gainsboro-200);
+  display         : flex;
+  flex-direction  : row;
+  align-items     : flex-start;
+  justify-content : flex-start;
+  gap             : var(--gap-11xs);
+}
+
+.mailIcon {
+  position   : relative;
+  width      : 13px;
+  height     : 12px;
+  flex-shrink: 0;
+}
+
+.notes13 {
+  overflow       : hidden;
+  display        : flex;
+  flex-direction : row;
+  padding        : var(--padding-11xs);
+  align-items    : center;
+  justify-content: center;
+}
+
+.email {
+  position   : relative;
+  font-weight: 500;
+}
+
+.call2 {
+  background-color: var(--white);
+  border-bottom   : 0.5px solid var(--color-gainsboro-200);
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  align-items     : flex-start;
+  justify-content : flex-start;
+  gap             : var(--gap-11xs);
+}
+
+.vendorReport1 {
+  position   : relative;
+  font-size  : var(--m-size);
+  font-family: var(--m);
+  color      : var(--paragraphcolor);
+  text-align : left;
+}
+
+.tabsParent,
+.vendorReport {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.vendorReport {
+  cursor          : pointer;
+  border          : 0.5px solid var(--color-gainsboro-200);
+  padding         : 0 0 0 var(--padding-3xs);
+  background-color: var(--white);
+  border-radius   : 2px;
+  box-sizing      : border-box;
+  height          : 36px;
+  justify-content : flex-end;
+  gap             : var(--gap-8xs);
+}
+
+.tabsParent {
+  align-self     : stretch;
+  justify-content: center;
+  gap            : 320px;
+}
+
+.timeIcon {
+  position   : relative;
+  width      : 16px;
+  height     : 16px;
+  flex-shrink: 0;
+}
+
+.inputFeild,
+.timeWrapper {
+  box-sizing: border-box;
+  height    : 34px;
+}
+
+.timeWrapper {
+  display        : flex;
+  flex-direction : row;
+  padding        : var(--padding-3xs);
+  align-items    : center;
+  justify-content: center;
+}
+
+.inputFeild {
+  width      : 114px;
+  flex-shrink: 0;
+}
+
+.inputFeild,
+.inputFeild1 {
+  border-radius  : var(--br-8xs);
+  border         : 0.5px solid var(--color-gainsboro-200);
+  display        : flex;
+  flex-direction : column;
+  padding        : var(--padding-5xs) var(--padding-3xs);
+  align-items    : flex-start;
+  justify-content: center;
+}
+
+.date,
+.inputFeild1,
+.wrapper {
+  box-sizing: border-box;
+  height    : 34px;
+}
+
+.wrapper {
+  display        : flex;
+  flex-direction : column;
+  padding        : var(--padding-3xs);
+  align-items    : flex-start;
+  justify-content: flex-start;
+  color          : var(--color-black);
+}
+
+.date {
+  border         : 0.5px solid var(--color-gainsboro-200);
+  padding        : var(--padding-5xs) var(--padding-3xs);
+  align-items    : center;
+  justify-content: center;
+  color          : var(--color-gray-200);
+}
+
+.date,
+.externalWrapper,
+.insertTemplate {
+  border-radius : var(--br-8xs);
+  display       : flex;
+  flex-direction: row;
+}
+
+.externalWrapper {
+  background-color: var(--color-deepskyblue-200);
+  padding         : 1px var(--padding-3xs);
+  align-items     : flex-start;
+  justify-content : flex-start;
+  font-size       : var(--p10m-size);
+  color           : var(--white);
+}
+
+.insertTemplate {
+  background-color: transparent;
+  border          : 0.5px solid var(--color-gainsboro-200);
+  box-sizing      : border-box;
+  height          : 34px;
+  padding         : var(--padding-5xs) var(--padding-3xs);
+  align-items     : center;
+  justify-content : center;
+  color           : var(--color-gray-200);
+}
+
+.frameParent2,
+.frameParent3 {
+  align-self     : stretch;
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.frameParent3 {
+  flex-direction: row;
+  align-items   : center;
+  gap           : var(--gap-3xs);
+  font-size     : var(--m-size);
+  color         : var(--color-gray-100);
+}
+
+.frameParent2 {
+  border-radius   : var(--br-8xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  flex-direction  : column;
+  padding         : var(--padding-mini);
+  align-items     : flex-start;
+  gap             : 132px;
+  font-size       : var(--p10m-size);
+}
+
+.default,
+.defaultWrapper {
+  position: absolute;
+  top     : 0;
+  left    : 0;
+}
+
+.defaultWrapper {
+  height: 110.53%;
+  width : 133.8%;
+  right : -67.61%;
+  bottom: -10.53%;
+  left  : 33.8%;
+}
+
+.radiobuttonChild {
+  position        : absolute;
+  height          : 84.21%;
+  width           : 22.54%;
+  top             : 10.53%;
+  right           : 77.46%;
+  bottom          : 5.26%;
+  left            : 0;
+  border-radius   : 1.61px;
+  background-color: var(--color-silver-100);
+}
+
+.radiobutton {
+  position   : relative;
+  width      : 71px;
+  height     : 19px;
+  flex-shrink: 0;
+}
+
+.radiobuttonWrapper {
+  width          : 128px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: flex-start;
+}
+
+.defaultContainer {
+  position: absolute;
+  height  : 110.53%;
+  width   : 197.18%;
+  top     : 0;
+  right   : -130.99%;
+  bottom  : -10.53%;
+  left    : 33.8%;
+}
+
+.radiobuttonContainer {
+  width          : 189px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : column;
+  padding        : var(--padding-3xs);
+  box-sizing     : border-box;
+  align-items    : flex-start;
+  justify-content: center;
+}
+
+.frameParent5 {
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+}
+
+.addNote {
+  position      : relative;
+  font-size     : var(--m-size);
+  text-transform: capitalize;
+  font-family   : var(--m);
+  color         : var(--primary1);
+  text-align    : left;
+}
+
+.addNoteWrapper,
+.frameParent4 {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.addNoteWrapper {
+  cursor          : pointer;
+  border          : 0;
+  padding         : var(--padding-3xs) var(--padding-mini);
+  background-color: #ece5f6;
+  border-radius   : var(--br-8xs);
+  height          : 30px;
+  box-sizing      : border-box;
+  justify-content : center;
+}
+
+.frameParent4 {
+  align-self     : stretch;
+  justify-content: flex-end;
+  gap            : var(--gap-3xs);
+  color          : var(--dark-font);
+}
+
+.all,
+.groupItem {
+  position: absolute;
+  top     : 0;
+}
+
+.groupItem {
+  cursor          : pointer;
+  border          : 0;
+  padding         : 0;
+  background-color: var(--primary1);
+  left            : 0;
+  border-radius   : var(--br-8xs);
+  width           : 86px;
+  height          : 26.19px;
+}
+
+.all {
+  left       : 33px;
+  font-size  : var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--m);
+  color      : var(--white);
+  text-align : left;
+  display    : inline-block;
+  width      : 20px;
+  height     : 24.18px;
+}
+
+.rectangleGroup {
+  cursor          : pointer;
+  border          : 0;
+  padding         : 0;
+  background-color: transparent;
+  position        : relative;
+  width           : 86px;
+  height          : 26.19px;
+  flex-shrink     : 0;
+}
+
+.addedByKiel,
+.groupParent1 {
+  color: var(--color-dimgray-100);
+}
+
+.groupParent1 {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-41xl);
+  font-size      : var(--font-size-base);
+}
+
+.addedByKiel {
+  position : relative;
+  font-size: var(--p14m-size);
+}
+
+.iconlylightOutlinelocationGroup,
+.jun453pmParent {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.iconlylightOutlinelocationGroup {
+  justify-content: flex-start;
+  gap            : var(--gap-8xs);
+  font-size      : var(--m-size);
+  color          : var(--border-color);
+}
+
+.jun453pmParent {
+  justify-content: center;
+  gap            : var(--gap-3xs);
+}
+
+.instanceInner {
+  position     : absolute;
+  height       : 28.78%;
+  width        : 44.37%;
+  top          : 39.58%;
+  right        : 27.82%;
+  bottom       : 31.63%;
+  left         : 27.82%;
+  border-radius: 1.25px;
+  max-width    : 100%;
+  overflow     : hidden;
+  max-height   : 100%;
+}
+
+.rectangleContainer {
+  position   : relative;
+  width      : 24px;
+  height     : 24px;
+  flex-shrink: 0;
+}
+
+.frameParent6,
+.subjectParent {
+  display       : flex;
+  flex-direction: row;
+}
+
+.frameParent6 {
+  align-self     : stretch;
+  align-items    : flex-end;
+  justify-content: space-between;
+  font-size      : var(--p10m-size);
+}
+
+.subjectParent {
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-mini);
+  color          : var(--color-dimgray-100);
+}
+
+.deleteIcon,
+.markerPenIcon {
+  position   : relative;
+  width      : 19px;
+  height     : 19px;
+  flex-shrink: 0;
+  overflow   : hidden;
+}
+
+.deleteIcon {
+  width : 30px;
+  height: 30px;
+}
+
+.markerPenParent,
+.tagbutton,
+.tagbutton1 {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.markerPenParent {
+  justify-content: flex-start;
+  gap            : var(--gap-8xs);
+}
+
+.tagbutton,
+.tagbutton1 {
+  border-radius   : var(--br-8xs);
+  background-color: var(--login-bg);
+  height          : 17px;
+  padding         : var(--padding-3xs);
+  box-sizing      : border-box;
+  justify-content : center;
+}
+
+.tagbutton1 {
+  background-color: var(--s4);
+  text-align      : left;
+}
+
+.frameParent7,
+.tagbuttonParent {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-sm);
+}
+
+.frameParent7 {
+  flex-direction: column;
+  align-items   : flex-end;
+  text-align    : center;
+  font-size     : var(--p10m-size);
+  color         : var(--white);
+}
+
+.loremIpsumDolorSitAmetCoParent {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-31xl);
+  color          : var(--color-gray-300);
+}
+
+.internalNotes,
+.tagbutton2 {
+  border-radius: var(--br-8xs);
+  display      : flex;
+}
+
+.internalNotes {
+  align-self      : stretch;
+  background-color: var(--white);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  flex-direction  : column;
+  padding         : var(--padding-mini);
+  align-items     : flex-start;
+  justify-content : flex-start;
+  gap             : var(--gap-3xs);
+}
+
+.tagbutton2 {
+  background-color: var(--color-deepskyblue-200);
+  height          : 17px;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  box-sizing      : border-box;
+  align-items     : center;
+  justify-content : center;
+}
+
+.notesTasksFeedback {
+  position        : absolute;
+  top             : 175px;
+  left            : 611px;
+  border-radius   : var(--br-9xs);
+  background-color: var(--white);
+  box-shadow      : 0 4px 60px rgba(22, 58, 95, 0.07);
+  display         : flex;
+  flex-direction  : column;
+  padding         : 30px;
+  align-items     : flex-start;
+  justify-content : flex-start;
+  gap             : 23px;
+}
+
+.arrowChevronForward,
+.arrowChevronForward1 {
+  position   : relative;
+  width      : 21.36px;
+  height     : 21.36px;
+  flex-shrink: 0;
+}
+
+.arrowChevronForward1 {
+  width : 21px;
+  height: 21px;
+}
+
+.groupParent2 {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : 22px;
+}
+
+.frameWrapper {
+  border-radius   : var(--br-3xs);
+  background-color: var(--white);
+  box-shadow      : 0 4px 8px rgba(0, 0, 0, 0.15);
+  border          : 1px solid #c1bdbd;
+  box-sizing      : border-box;
+  width           : 53.36px;
+  flex-shrink     : 0;
+  display         : flex;
+  flex-direction  : row;
+  padding         : 17px 16px;
+  align-items     : flex-start;
+  justify-content : space-between;
+}
+
+.rectangle {
+  position     : absolute;
+  height       : 100%;
+  width        : 100%;
+  top          : 0;
+  right        : 0;
+  bottom       : 0;
+  left         : 0;
+  border-radius: 82.95px;
+  background   : linear-gradient(140.46deg, #6c2ad2, #77cffe);
+}
+
+.ellipseIcon1 {
+  position  : absolute;
+  height    : 72.73%;
+  width     : 41.03%;
+  top       : 13.64%;
+  right     : 8.15%;
+  bottom    : 13.64%;
+  left      : 50.82%;
+  max-width : 100%;
+  overflow  : hidden;
+  max-height: 100%;
+}
+
+.radioButton {
+  position   : relative;
+  width      : 41.54px;
+  height     : 24.37px;
+  flex-shrink: 0;
+}
+
+.owner {
+  position: relative;
+  color   : var(--border-color);
+}
+
+.buyerParent {
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: center;
+  gap            : var(--gap-mini);
+}
+
+.arrowChevronForward2 {
+  position  : absolute;
+  height    : 70%;
+  width     : 70%;
+  top       : 13.33%;
+  right     : 13.33%;
+  bottom    : 16.67%;
+  left      : 16.67%;
+  max-width : 100%;
+  overflow  : hidden;
+  max-height: 100%;
+}
+
+.instanceParent2 {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: space-between;
+}
+
+.frameChild13,
+.frameChild14 {
+  position   : relative;
+  flex-shrink: 0;
+}
+
+.frameChild13 {
+  align-self   : stretch;
+  border-radius: var(--br-3xs);
+  background   : linear-gradient(180deg,
+      rgba(108, 42, 210, 0.5),
+      rgba(117, 184, 247, 0.5));
+  height: 67px;
+}
+
+.frameChild14 {
+  width     : 91px;
+  height    : 91px;
+  margin-top: -48px;
+}
+
+.frameParent12,
+.rectangleParent3 {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: flex-start;
+}
+
+.frameParent12 {
+  align-items: flex-end;
+  gap        : var(--gap-xs);
+}
+
+.kielGlass {
+  flex       : 1;
+  position   : relative;
+  font-weight: 600;
+}
+
+.kielGlassWrapper {
+  width          : 102px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.frameParent13,
+.instanceParent3 {
+  align-self    : stretch;
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.frameParent13 {
+  justify-content: center;
+  gap            : 13px;
+  font-size      : var(--s-size);
+  color          : var(--color-black);
+}
+
+.instanceParent3 {
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+}
+
+.groupIcon1 {
+  position  : absolute;
+  height    : 55.25%;
+  width     : 40.02%;
+  top       : 23.33%;
+  right     : 29.98%;
+  bottom    : 21.42%;
+  left      : 30%;
+  max-width : 100%;
+  overflow  : hidden;
+  max-height: 100%;
+}
+
+.rainbowStreet {
+  margin: 0;
+}
+
+.frameParent15,
+.instanceParent5 {
+  display        : flex;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+}
+
+.instanceParent5 {
+  align-self    : stretch;
+  flex-direction: row;
+}
+
+.frameParent15 {
+  width         : 151px;
+  flex-shrink   : 0;
+  flex-direction: column;
+}
+
+.action {
+  position   : relative;
+  font-size  : var(--m-size);
+  font-weight: 500;
+  font-family: var(--m);
+  color      : var(--border-color);
+  text-align : left;
+}
+
+.arrowDown2 {
+  border          : 0;
+  background-color: var(--border-color);
+  position        : relative;
+  width           : 8.67px;
+  height          : 4.88px;
+  flex-shrink     : 0;
+}
+
+.actionbutton {
+  cursor          : pointer;
+  border          : 1px solid var(--primary1);
+  padding         : var(--padding-3xs);
+  background-color: var(--white);
+  border-radius   : var(--br-8xs);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  box-sizing      : border-box;
+  width           : 89px;
+  height          : 30px;
+  flex-shrink     : 0;
+  display         : flex;
+  flex-direction  : row;
+  align-items     : center;
+  justify-content : center;
+  gap             : var(--gap-xl);
+}
+
+.relationshipScore {
+  position   : relative;
+  display    : inline-block;
+  width      : 76px;
+  height     : 12px;
+  flex-shrink: 0;
+}
+
+.image12Icon {
+  position     : relative;
+  border-radius: var(--br-5xs);
+  width        : 69px;
+  height       : 42px;
+  flex-shrink  : 0;
+  object-fit   : cover;
+}
+
+.actionbuttonParent {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  gap            : var(--gap-3xs);
+  font-size      : var(--p8r-size);
+}
+
+.frameParent14 {
+  align-self     : stretch;
+  border-radius  : var(--br-5xs);
+  border         : 1px solid var(--color-gainsboro-100);
+  display        : flex;
+  flex-direction : row;
+  padding        : var(--padding-mini);
+  align-items    : center;
+  justify-content: space-between;
+  color          : var(--color-dimgray-100);
+}
+
+.activityWrapper,
+.rectangleIcon {
+  border-radius: var(--br-7xs);
+  flex-shrink  : 0;
+}
+
+.activityWrapper {
+  align-self      : stretch;
+  background-color: #f7f8f7;
+  height          : 38px;
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  box-sizing      : border-box;
+  align-items     : center;
+  justify-content : center;
+  font-size       : var(--p14m-size);
+}
+
+.rectangleIcon {
+  position  : relative;
+  width     : 133px;
+  height    : 125px;
+  object-fit: cover;
+}
+
+.appraisalWrapper {
+  border-radius  : var(--br-8xs);
+  border         : 1px solid var(--color-darkgray-100);
+  box-sizing     : border-box;
+  width          : 130px;
+  height         : 30px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : row;
+  padding        : var(--padding-3xs);
+  align-items    : center;
+  justify-content: center;
+}
+
+.rectangleParent6 {
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-xl);
+}
+
+.bed2Icon {
+  position   : relative;
+  width      : 15px;
+  height     : 15px;
+  flex-shrink: 0;
+  overflow   : hidden;
+}
+
+.bed2Parent {
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: center;
+  gap            : var(--gap-8xs);
+}
+
+.div6,
+.frameParent20 {
+  color: var(--color-black);
+}
+
+.frameParent20 {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-end;
+  justify-content: flex-start;
+  gap            : var(--gap-mini);
+  font-size      : var(--m-size);
+}
+
+.div6 {
+  position   : relative;
+  font-weight: 500;
+}
+
+.frameParent19,
+.frameParent21,
+.lastSoldParent {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-8xs);
+}
+
+.frameParent19,
+.frameParent21 {
+  flex-direction: column;
+}
+
+.frameParent19 {
+  gap: var(--gap-mini);
+}
+
+.arrowDown21 {
+  position   : relative;
+  width      : 8.67px;
+  height     : 4.88px;
+  flex-shrink: 0;
+}
+
+.actionbutton1 {
+  cursor          : pointer;
+  border          : 1px solid var(--primary1);
+  padding         : var(--padding-3xs);
+  background-color: var(--white);
+  border-radius   : var(--br-8xs);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  box-sizing      : border-box;
+  width           : 130px;
+  height          : 30px;
+  flex-shrink     : 0;
+  display         : flex;
+  flex-direction  : row;
+  align-items     : center;
+  justify-content : center;
+  gap             : var(--gap-41xl);
+}
+
+.frameParent18 {
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-xl);
+  font-size      : var(--p10m-size);
+  color          : var(--paragraphcolor);
+}
+
+.frameParent17,
+.ownerWrapper {
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+}
+
+.frameParent17 {
+  align-self      : stretch;
+  border-radius   : var(--br-7xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  padding         : var(--padding-mini) var(--padding-3xs);
+  align-items     : flex-end;
+  gap             : var(--gap-mini);
+  color           : var(--color-darkgray-100);
+}
+
+.ownerWrapper {
+  border-radius: var(--br-8xs);
+  border       : 1px solid var(--color-orange-100);
+  box-sizing   : border-box;
+  width        : 130px;
+  height       : 30px;
+  flex-shrink  : 0;
+  padding      : var(--padding-3xs);
+  align-items  : center;
+}
+
+.frameParent23 {
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : var(--gap-xl);
+  text-align     : left;
+  font-size      : var(--p10m-size);
+  color          : var(--paragraphcolor);
+}
+
+.frameParent22 {
+  border-radius   : var(--br-7xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-mini) var(--padding-3xs);
+  align-items     : flex-end;
+  justify-content : center;
+  gap             : var(--gap-mini);
+  text-align      : center;
+  color           : var(--color-orange-100);
+}
+
+.frameParent16 {
+  align-self     : stretch;
+  border-radius  : var(--br-5xs);
+  border         : 1px solid var(--color-gainsboro-100);
+  display        : flex;
+  flex-direction : column;
+  padding        : 25px var(--padding-mini);
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-3xs);
+  color          : var(--color-darkslategray);
+}
+
+.activityFeedFilter {
+  position   : relative;
+  width      : 29.51px;
+  height     : 29.48px;
+  flex-shrink: 0;
+  display    : none;
+}
+
+.activityParent {
+  align-self      : stretch;
+  border-radius   : var(--br-8xs);
+  background-color: rgba(188, 187, 188, 0.1);
+  border          : 0.5px solid #e4e4e4;
+  box-sizing      : border-box;
+  height          : 38px;
+  flex-shrink     : 0;
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  align-items     : center;
+  justify-content : space-between;
+}
+
+.today {
+  position           : relative;
+  font-size          : var(--m-size);
+  font-weight        : 300;
+  color              : var(--color-black);
+  -webkit-text-stroke: 0.5px #e4e4e4;
+}
+
+.instanceParent6 {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-xs);
+  color          : var(--color-darkslategray);
+}
+
+.frameChild19 {
+  position     : relative;
+  border-radius: var(--br-8xs);
+  width        : 1px;
+  height       : 20px;
+  flex-shrink  : 0;
+}
+
+.frameChild20,
+.frameChild21 {
+  position   : relative;
+  width      : 33px;
+  height     : 21px;
+  flex-shrink: 0;
+}
+
+.frameChild21 {
+  border-radius: var(--br-8xs);
+  width        : 0;
+}
+
+.vectorParent {
+  width          : 21px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : var(--gap-8xs);
+}
+
+.maskGroupIcon {
+  position   : relative;
+  width      : 36.5px;
+  height     : 36.5px;
+  flex-shrink: 0;
+  object-fit : cover;
+}
+
+.kielGlassContainer {
+  width          : 91px;
+  flex-shrink    : 0;
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.viewedPropertyListingWrapper {
+  align-items    : flex-start;
+  justify-content: flex-start;
+  text-align     : right;
+  font-size      : var(--p10m-size);
+  color          : var(--paragraphcolor);
+}
+
+.frameParent29,
+.pmWrapper,
+.viewedPropertyListingWrapper {
+  display       : flex;
+  flex-direction: row;
+}
+
+.frameParent29 {
+  align-items    : center;
+  justify-content: center;
+  gap            : var(--gap-11xs);
+}
+
+.pmWrapper {
+  align-items    : flex-start;
+  justify-content: flex-end;
+  margin-top     : -9px;
+  text-align     : right;
+  font-size      : var(--p10m-size);
+  color          : var(--barbg);
+}
+
+.frameParent27,
+.frameParent28 {
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.frameParent28 {
+  flex            : 1;
+  border-radius   : var(--br-7xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 5px rgba(0, 0, 0, 0.15);
+  height          : 62px;
+  flex-direction  : column;
+  padding         : var(--padding-3xs);
+  box-sizing      : border-box;
+  align-items     : flex-end;
+}
+
+.frameParent27 {
+  width         : 296px;
+  flex-direction: row;
+  align-items   : flex-start;
+  gap           : var(--gap-7xs);
+}
+
+.frameChild22 {
+  position     : relative;
+  border-radius: var(--br-8xs);
+  width        : 0;
+  height       : 20px;
+  flex-shrink  : 0;
+}
+
+.feedback {
+  position      : relative;
+  text-transform: capitalize;
+}
+
+.feedbackWrapper {
+  border-radius   : 4.05px;
+  background-color: rgba(108, 42, 210, 0.1);
+  display         : flex;
+  flex-direction  : row;
+  padding         : 6px var(--padding-mini);
+  align-items     : flex-start;
+  justify-content : flex-start;
+}
+
+.actionbutton3 {
+  border-radius   : var(--br-8xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.15);
+  border          : 1px solid var(--primary1);
+  box-sizing      : border-box;
+  width           : 90px;
+  height          : 30px;
+  flex-shrink     : 0;
+  display         : flex;
+  flex-direction  : row;
+  padding         : var(--padding-3xs);
+  align-items     : center;
+  justify-content : space-between;
+  color           : var(--border-color);
+}
+
+.instanceParent7 {
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+  gap            : 30px;
+  font-size      : var(--m-size);
+  color          : var(--primary1);
+}
+
+.activityCard {
+  background-color: var(--white);
+  border          : 1px solid var(--color-gainsboro-200);
+  box-sizing      : border-box;
+  width           : 316px;
+  flex-direction  : column;
+  padding         : 12px;
+  align-items     : center;
+  gap             : var(--gap-mini);
+  font-size       : var(--p14m-size);
+  color           : var(--border-color);
+}
+
+.activityCard,
+.buyerCard,
+.ownersCard {
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.buyerCard {
+  border-radius   : var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--white);
+  box-shadow      : 0 1px 20px rgba(0, 0, 0, 0.25);
+  width           : 357px;
+  flex-shrink     : 0;
+  flex-direction  : column;
+  padding         : var(--padding-mini);
+  box-sizing      : border-box;
+  align-items     : center;
+  gap             : var(--gap-mini);
+}
+
+.ownersCard {
+  position      : absolute;
+  top           : 175px;
+  left          : 1499px;
+  flex-direction: row;
+  align-items   : flex-start;
+  gap           : 11px;
+  font-size     : var(--m-size);
+  color         : #9c9c9c;
+}
+
+.agentDashboardContactOw {
+  position        : relative;
+  background-color: #fbfbfb;
+  width           : 100%;
+  height          : 1242px;
+  overflow        : hidden;
+  text-align      : left;
+  font-size       : var(--p14m-size);
+  color           : var(--paragraphcolor);
+  font-family     : var(--m);
+}
+
+@media screen and (max-width: 960px) {
+  .leftNavigation {
+    flex-direction: column;
+  }
+}

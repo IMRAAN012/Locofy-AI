@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.App {
+  width         : 100vw;
+  height        : 100vh;
+  display       : flex;
+  align-items   : center;
+  flex-direction: column;
+  font-family   : "Nunito", sans-serif;
+}
+
+.App .openModalBtn {
+  width           : 200px;
+  height          : 40px;
+  border          : none;
+  border-radius   : 6px;
+  background-color: cornflowerblue;
+  color           : white;
+  cursor          : pointer;
+}
+
+body {
+  padding: 0;
+  margin : 0;
+}
+
+body {
+  margin     : 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --m: Poppins;
+
+  /* font sizes */
+  --m-size         : 12px;
+  --p10m-size      : 10px;
+  --p14m-size      : 14px;
+  --p8r-size       : 8px;
+  --s-size         : 20px;
+  --font-size-base : 16px;
+  --h1-p-sb-32-size: 32px;
+
+  /* Colors */
+  --color-gray-100       : #8b8b8b;
+  --color-gray-200       : #272727;
+  --headingcolor         : #262626;
+  --border-color         : #112347;
+  --color-gray-300       : #200e32;
+  --white                : #fff;
+  --color-gainsboro-100  : #e7e5e5;
+  --color-gainsboro-200  : #d9d9d9;
+  --primary1             : #6c2ad2;
+  --barbg                : #c4c4c4;
+  --color-silver-100     : rgba(196, 196, 196, 0.22);
+  --paragraphcolor       : #666;
+  --color-dimgray-100    : #585858;
+  --color-black          : #000;
+  --color-darkslategray  : #26344e;
+  --color-orange-100     : #f5a623;
+  --s4                   : #f39800;
+  --color-darkgray-100   : #9a9a9f;
+  --shade3               : #f0f0f0;
+  --login-bg             : #345b83;
+  --color-deepskyblue-100: #2fcdff;
+  --color-deepskyblue-200: #0bc4ed;
+  --dark-font            : #737497;
+  --secondary3           : #2f74ee;
+  --color-tomato         : #f93939;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-7xs : 6px;
+  --gap-8xs : 5px;
+  --gap-11xs: 2px;
+  --gap-xs  : 12px;
+  --gap-3xs : 10px;
+  --gap-xl  : 20px;
+  --gap-41xl: 60px;
+  --gap-31xl: 50px;
+  --gap-sm  : 14px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+  --padding-3xs : 10px;
+  --padding-5xs : 8px;
+  --padding-11xs: 2px;
+  --padding-31xl: 50px;
+  --padding-8xs : 5px;
+
+  /* border radiuses */
+  --br-3xs   : 10px;
+  --br-8xs   : 5px;
+  --br-7xs   : 6px;
+  --br-5xs   : 8px;
+  --br-9xs   : 4px;
+  --br-11xs-3: 1.3px;
+  --br-11xs-6: 1.6px;
+}
+
+body {
+  margin     : 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --p14m: Poppins;
+
+  /* font sizes */
+  --p8r-size       : 8px;
+  --p10r-size      : 10px;
+  --p14m-size      : 14px;
+  --p12r-size      : 12px;
+  --p-16-m-size    : 16px;
+  --m32-size       : 32px;
+  --font-size-smi-9: 12.9px;
+  --font-size-3xs-7: 9.7px;
+  --h2-p-m-24-size : 24px;
+  --font-size-mini : 15px;
+  --font-size-xl   : 20px;
+
+  /* Colors */
+  --shade1                 : #fbfbfb;
+  --color-gray-100         : #262626;
+  --color                  : #112347;
+  --color-gray-200         : #200e32;
+  --color-gray-300         : rgba(17, 35, 71, 0.1);
+  --color-gray-400         : rgba(17, 35, 71, 0.5);
+  --white                  : #fff;
+  --color-gainsboro-100    : #e4e4e4;
+  --light-grey             : #d9d9d9;
+  --color-gainsboro-200    : rgba(217, 217, 217, 0.28);
+  --paragraphcolor         : #666;
+  --color-dimgray-100      : #585858;
+  --color-black            : #000;
+  --color-darkslategray-100: #26344e;
+  --color-darkslategray-200: #2f3538;
+  --barbg                  : #c4c4c4;
+  --color-silver-100       : rgba(196, 196, 196, 0.22);
+  --color-silver-200       : rgba(188, 187, 188, 0.1);
+  --shade2                 : #f8f8f8;
+  --color-whitesmoke-100   : #f3f3f3;
+  --shade3                 : #f0f0f0;
+  --color-darkgray-100     : #a4a3a3;
+  --color-darkgray-200     : #9c9c9c;
+  --secondary2             : #f93939;
+  --color-tomato-100       : rgba(249, 57, 57, 0.1);
+  --primary1               : #6c2ad2;
+  --color-blueviolet-100   : rgba(108, 42, 210, 0.1);
+  --color-red              : rgba(237, 11, 11, 0.6);
+  --color-ghostwhite       : #fbfafe;
+  --color-slateblue        : #6537b3;
+  --color-gold             : #ebcb38;
+  --color-indianred-100    : #e45857;
+  --s5                     : #cb5b66;
+  --color-limegreen-100    : #3dd856;
+  --color-limegreen-200    : #10d35e;
+  --color-limegreen-300    : rgba(16, 211, 94, 0.1);
+  --s4                     : #f39800;
+  --secondary3             : #2f74ee;
+  --color-deepskyblue      : #2fcdff;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-mini: 15px;
+  --gap-3xs : 10px;
+  --gap-17xl: 36px;
+  --gap-5xs : 8px;
+  --gap-9xs : 4px;
+  --gap-11xs: 2px;
+  --gap-2xl : 21px;
+  --gap-8xs : 5px;
+  --gap-sm  : 14px;
+  --gap-xl  : 20px;
+  --gap-6xs : 7px;
+  --gap-lgi : 19px;
+  --gap-7xl : 26px;
+  --gap-20xl: 39px;
+  --gap-smi : 13px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+  --padding-3xs : 10px;
+  --padding-11xs: 2px;
+  --padding-8xs : 5px;
+  --padding-12xs: 1px;
+  --padding-xs  : 12px;
+  --padding-5xs : 8px;
+  --padding-xl  : 20px;
+  --padding-24xl: 43px;
+  --padding-6xs : 7px;
+  --padding-base: 16px;
+  --padding-38xl: 57px;
+  --padding-7xs : 6px;
+  --padding-9xs : 4px;
+  --padding-4xs : 9px;
+  --padding-6xl : 25px;
+  --padding-31xl: 50px;
+
+  /* border radiuses */
+  --br-8xs   : 5px;
+  --br-3xs   : 10px;
+  --br-mini  : 15px;
+  --br-5xs   : 8px;
+  --br-11xl  : 30px;
+  --br-7xs   : 6px;
+  --br-9xs   : 4px;
+  --br-45xl  : 64px;
+  --br-10xs-4: 2.4px;
+  --br-21xl-5: 40.5px;
+  --br-11xs-6: 1.6px;
+  --br-64xl  : 83px;
+  --br-19xl  : 38px;
+}
